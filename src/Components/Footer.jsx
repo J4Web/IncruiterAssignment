@@ -7,7 +7,7 @@ function Footer() {
         display: "inline-block"
     }
   return (
-    <div className='flex justify-center align-middle text-center w-full h-full bg-[#133f7d] '>
+    <div className='flex justify-center bg-[#133f7d] '>
       <div style={ divStyle} data-ignore="used only for top most containter width">
   <div class="bg-[#133f7d] flex justify-start items-stretch flex-row box-border pt-[30.5px] pb-[30px] px-[84px]">
     <div class="flex justify-start items-stretch flex-col w-[34.69%] grow-0 shrink-0 basis-auto box-border pb-[95px]">
@@ -77,12 +77,12 @@ function Footer() {
         </div>
       </div>
     </div>
-    <div class="flex justify-start items-stretch flex-col w-[65.31%] grow-0 shrink-0 basis-auto box-border pt-[29.5px] px-[15px]">
-      <div class="flex justify-start items-center flex-col gap-[15px] grow-0 shrink-0 basis-auto box-border -mr-2.5 pl-[13.5px]">
-        <div class="flex justify-between items-center flex-row gap-[178px] self-stretch grow-0 shrink-0 basis-auto box-border pr-[33px]">
-          <p class="grow-0 shrink-0 basis-auto box-border [font-family:Manrope] text-[25px] font-semibold text-[white]">Our Products</p>
-          <p class="grow-0 shrink-0 basis-auto box-border [font-family:Manrope] text-[25px] font-semibold text-[white]">Website Pages</p>
-          <p class="grow-0 shrink-0 basis-auto box-border [font-family:Manrope] text-[25px] font-semibold text-[white]">Policies</p>
+    <div class="flex flex-col justify-evenly mr-4">
+      <div class="flex items-center flex-col gap-[15px] basis-auto box-border mr-2.5 pl-[13.5px] justify-center overflow-hidden">
+        <div class="flex justify-between items-center flex-row gap-[178px] self-stretch grow-0 basis-auto box-border pr-[15px]">
+          <p class="basis-auto box-border [font-family:Manrope] text-[20px] font-semibold text-[white]">Our Products</p>
+          <p class="basis-auto box-border [font-family:Manrope] text-[20px] font-semibold text-[white]">Website Pages</p>
+          <p class="basis-auto box-border [font-family:Manrope] text-[20px] font-semibold text-[white]">Policies</p>
         </div>
         <div class="flex justify-center items-stretch flex-col gap-[15px] self-stretch grow-0 shrink-0 basis-auto box-border">
           <div class="flex justify-start items-stretch flex-row grow-0 shrink-0 basis-auto box-border">
@@ -137,7 +137,7 @@ function Footer() {
             <div class="flex justify-center items-stretch flex-col w-[40.23%] grow-0 shrink-0 basis-auto box-border">
               <p class="box-border text-sm font-normal text-[white]" style={{
                 fontFamily: "Manrope"
-              }}>Pre-vetted Resourcess</p>
+              }}>Pre-vetted Resources</p>
             </div>
             <div class="flex justify-center items-stretch flex-col w-[42.10%] grow-0 shrink-0 basis-auto box-border px-[15px]">
               <p class="box-border [font-family:Manrope] text-sm font-normal text-[white]">Careers</p>
@@ -145,8 +145,6 @@ function Footer() {
                <div class="flex justify-center items-stretch flex-col w-[17.67%] grow-0 shrink-0 basis-auto box-border px-[15px]"></div>
           </div>
         </div>
-        <p class="grow-0 shrink-0 basis-auto box-border [font-family:Manrope] text-sm font-normal text-[white]">AI JD Creator</p>
-        <p class="grow-0 shrink-0 basis-auto box-border [font-family:Manrope] text-sm font-normal text-[white]">JD to CV Match</p>
       </div>
       <div class="flex  mt-[166px]  flex-col justify-start">
         <div class="flex items-stretch flex-row gap-[19px] h-[41px] grow-0 shrink-0 basis-auto box-border pl-[100px] pr-12">
@@ -180,7 +178,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <p class="[font-family:Manrope] font-normal text-gray-300 mt-11 mb-auto inline-block -ml-[18rem]">© 2022 InCruiter India Private Limited. All rights reserved</p>
+        <p class="[font-family:Manrope] font-normal text-gray-300 mt-11 mb-auto inline-block">© 2022 InCruiter India Private Limited. All rights reserved</p>
       </div>
     </div>
   </div>
