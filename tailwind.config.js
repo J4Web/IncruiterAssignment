@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'svg-background': "url('src\assets\bg.svg')",
+      },
+      fontFamily: {
+        manrope: ['Manrope', 'sans'], // 'sans' is the generic font family
+      },
+    },
   },
   plugins: [],
 }

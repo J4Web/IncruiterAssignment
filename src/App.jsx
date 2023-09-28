@@ -1,12 +1,17 @@
+import Home from "./Components/Home"
+import Featured from "./Components/Featured"
+import Reasons from "./Components/Reasons"
+import OtherProuduct from './Components/OtherProuduct'
+import Footer from "./Components/Footer"
+import './App.css'
 
 export default function App() {
   return (<>
-  <h1 className="w-screen h-screen bg-red-200">
-      Hello world!
-    </h1>
-    <h2>
-      ertfghjkl;
-    </h2>
+  <Home/>
+  <Featured/>
+  <Reasons/>
+  <OtherProuduct/>
+  <Footer/>
   </>
     
   )
