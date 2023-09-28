@@ -98,7 +98,7 @@ function Home() {
                       <div class="flex flex-col  items-center lg:text-left text-center justify-between  space-y-6 px-8">
                           <div class="flex flex-col items-start space-y-3">
                               <div class="text-3xl md:text-5xl font-bold px-8">
-                               <img src={videoCallTxt} alt=''  className='mr-96 -mt-[20px] md:mr-0' /> </div>
+                               <img src={videoCallTxt} alt=''  className='mr-96 -mt-[20px] md:m-[0] ' /> </div>
                     
                           </div>
                       </div>
@@ -110,21 +110,7 @@ function Home() {
       
                   </div>
               </div>
-          </div>
-                                  
-        
-        {/* <section className='absolute top-1/4 right-0 flex flex-row-reverse'> */}
-        {/* <img class="object-contain w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 h-auto" src={videoCall} alt="Image"/> */}
-
-          {/* <img src={videoCall} alt=""  className=' h-[510px] p-[30px] -mt-[20px] mb-36 md:w-3/4 ' />
-          <img src={videoCallTxt} alt=''  className='mr-96 -mt-[20px]' />
-          {isMobileMenuOpen && <img src={videoCallTxtSmall} alt=''  className='bg-[red]' />}
-         
-        
-        </section> */}
-        
-
-        
+          </div>      
 </div>
 
     
