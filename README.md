@@ -1,9 +1,35 @@
-# React + Vite
+# IncruiterAssigment
+![HomePage](screenshots/home.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This assigment consist of various pages, Home page, Features page, OurWork pages, Reasons, ourOtherProducts and footer page
 
-Currently, two official plugins are available:
+## Setup Guide
+- Clone the project
+- Cd to the folder
+- Go the project through the terminal and install all dependencies by using typing `npm install` in the terminal
+- Run the server using `npm run dev`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# IncruiterAssignment
+## Screenshots
+
+For visualization here's the step by step process
+
+### HomePage
+![Home-Page](screenshots/home.png)
+
+### Featured Page
+![featured](screenshots/featured.png)
+
+
+### Why you should choose us?
+![reasons](screenshots/reasons1.png)
+
+
+### Why you should choose us?
+![reasons](screenshots/reasons2.png)
+
+
+### our other products page
+![otherProd](screenshots/otherProd.png)
+
+### Footer with details
+![Footer](screenshots/footer.png)
