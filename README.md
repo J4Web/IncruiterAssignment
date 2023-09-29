@@ -11,7 +11,7 @@ This assigment consist of various pages, Home page, Features page, OurWork pages
 
 ## Screenshots
 
-For visualization here's the step by step process
+For visualization here's the step by step Guide
 
 ### HomePage
 ![Home-Page](screenshots/home.png)
